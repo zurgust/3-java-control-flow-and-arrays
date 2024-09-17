@@ -10,6 +10,9 @@ public class Task04Main {
     }
 
     static void from0to10000() {
+        for (int i = 0; i < 10000 - 1; i++) {
+            System.out.printf(String.valueOf(i) + '\n');
+        }
         //todo напишите здесь свою корректную реализацию этого метода, вместо существующей
     }
 
